@@ -1,0 +1,10 @@
+.header__navigation-link {
+  &:hover {
+    color: $accent-color;
+  }
+
+  &_active {
+    color: $accent-color;
+    font-weight: 700;
+  }
+}

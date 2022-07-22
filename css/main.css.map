@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAAA,CAAE;EACA,UAAU,EAAE,UAAU;EACtB,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,SAAS,EAAE,IAAI;;AAGjB;;;;;;CAME;EACA,SAAS,EAAE,OAAO;;AAGpB;MACO;EACL,MAAM,EAAE,IAAI;EACZ,WAAW,EAAE,OAAO;EACpB,SAAS,EAAE,OAAO;;AAGpB;YACa;EACX,OAAO,EAAE,IAAI;;AAGf;EACG;EACD,UAAU,EAAE,IAAI;;AC/BlB,IAAK;EACH,gBAAgB,EAAE,UAAU",
-"sources": ["../sass/base/_reset.scss","../sass/base/_base.scss"],
+"mappings": "AAAA,CAAE;EACA,UAAU,EAAE,UAAU;EACtB,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;;AAGZ,CAAE;EACA,KAAK,EAAE,OAAO;EACd,eAAe,EAAE,IAAI;;AAGvB;;;;;;CAME;EACA,SAAS,EAAE,OAAO;;AAGpB;MACO;EACL,MAAM,EAAE,IAAI;EACZ,WAAW,EAAE,OAAO;EACpB,SAAS,EAAE,OAAO;;AAGpB;YACa;EACX,OAAO,EAAE,IAAI;;AAGf;EACG;EACD,UAAU,EAAE,IAAI;;ACnClB;IACK;EACH,WAAW,EAAE,qBAAqB;EAClC,SAAS,EAAE,IAAI;EACf,KAAK,EAAE,OAAO;;AAGhB,UAAW;EACT,SAAS,EAAE,MAAM;EACjB,WAAW,EAAE,IAAI;EACjB,YAAY,EAAE,IAAI;EAClB,YAAY,EAAE,IAAI;EAClB,aAAa,EAAE,IAAI;;ACZrB,OAAQ;EACN,WAAW,EAAE,IAAI;EACjB,cAAc,EAAE,IAAI;;ACFtB,YAAa;EACX,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;EAC9B,WAAW,EAAE,MAAM;;ACHrB,wBAAyB;EACvB,OAAO,EAAE,IAAI;;ACDf,wBAAyB;EACvB,YAAY,EAAE,IAAI;EAElB,mCAAa;IACX,YAAY,EAAE,CAAC;;ACHjB,8BAAQ;EACN,KAAK,ECFM,OAAO;ADKpB,+BAAS;EACP,KAAK,ECNM,OAAO;EDOlB,WAAW,EAAE,GAAG;;AEPpB,KAAM;EACJ,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EAEnB,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,GAAG;EAChB,WAAW,EAAE,CAAC;;ACNhB,YAAa;EACX,YAAY,EAAE,IAAI",
+"sources": ["../sass/base/_reset.scss","../sass/base/_base.scss","../sass/blocks/header/_header.scss","../sass/blocks/header/__row/header__row.scss","../sass/blocks/header/__navigation-list/header__navigation-list.scss","../sass/blocks/header/__navigation-item/header__navigation-item.scss","../sass/blocks/header/__navigation-link/header__navigation-link.scss","../sass/base/_vars.scss","../sass/blocks/logo/_logo.scss","../sass/blocks/logo/__image/logo__image.scss"],
 "names": [],
 "file": "main.css"
 }
