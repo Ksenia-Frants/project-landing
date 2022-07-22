@@ -136,6 +136,9 @@ body {
   .header__input::placeholder {
     color: #bbbbbb; }
 
+.header__image {
+  border-radius: 40px 40px 40px 0; }
+
 .button {
   display: inline-block;
   height: 58px;
@@ -149,5 +152,14 @@ body {
   transition: background-color 0.2s ease-in; }
   .button:hover {
     background-color: #ff6a00; }
+
+.clients {
+  padding-top: 100px;
+  padding-bottom: 91px; }
+
+.clients__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
 
 /*# sourceMappingURL=main.css.map */
