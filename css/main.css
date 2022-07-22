@@ -22,6 +22,10 @@ button {
   font-family: inherit;
   font-size: inherit; }
 
+button {
+  background: none;
+  cursor: pointer; }
+
 input:focus,
 button:focus {
   outline: none; }
@@ -43,26 +47,26 @@ body {
   padding-left: 15px;
   padding-right: 15px; }
 
-.header {
+.nav {
   padding-top: 35px;
   padding-bottom: 33px; }
 
-.header__row {
+.nav__row {
   display: flex;
   justify-content: space-between;
   align-items: center; }
 
-.header__navigation-list {
+.nav__navigation-list {
   display: flex; }
 
-.header__navigation-item {
+.nav__navigation-item {
   margin-right: 42px; }
-  .header__navigation-item:last-child {
+  .nav__navigation-item:last-child {
     margin-right: 0; }
 
-.header__navigation-link:hover {
+.nav__navigation-link:hover {
   color: #f78434; }
-.header__navigation-link_active {
+.nav__navigation-link_active {
   color: #f78434;
   font-weight: 700; }
 
@@ -75,5 +79,75 @@ body {
 
 .logo__image {
   margin-right: 15px; }
+
+.header__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.header__text {
+  max-width: 467px; }
+
+.header__title {
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 79px;
+  letter-spacing: 0.8px;
+  margin-bottom: 25px;
+  margin-right: -160px;
+  z-index: 1;
+  position: relative; }
+
+.header__subtitle {
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 1.15px;
+  margin-bottom: 42px; }
+
+.header__form {
+  background: #ffffff;
+  box-shadow: 0px 17px 42px rgba(0, 0, 0, 0.12);
+  border-radius: 29px;
+  height: 58px;
+  transition: box-shadow 0.2s ease-in; }
+  .header__form_active {
+    box-shadow: 0px 17px 42px rgba(247, 132, 52, 0.27); }
+
+.header__label {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 72px;
+  height: 100%;
+  align-items: center; }
+  .header__label::before {
+    content: '';
+    position: absolute;
+    top: 21px;
+    left: 28px;
+    display: block;
+    width: 24px;
+    height: 19px;
+    background-image: url("../../img/icons/mail.svg"); }
+
+.header__input {
+  flex-grow: 1;
+  margin-right: 10px; }
+  .header__input::placeholder {
+    color: #bbbbbb; }
+
+.button {
+  display: inline-block;
+  height: 58px;
+  padding-left: 37px;
+  padding-right: 37px;
+  background-color: #f78434;
+  line-height: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  border-radius: 29px;
+  transition: background-color 0.2s ease-in; }
+  .button:hover {
+    background-color: #ff6a00; }
 
 /*# sourceMappingURL=main.css.map */

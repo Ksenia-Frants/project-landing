@@ -1,0 +1,19 @@
+.header__label {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 72px;
+  height: 100%;
+  align-items: center;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 21px;
+    left: 28px;
+    display: block;
+    width: 24px;
+    height: 19px;
+    background-image: url('../../img/icons/mail.svg');
+  }
+}

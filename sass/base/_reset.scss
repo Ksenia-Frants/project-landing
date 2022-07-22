@@ -26,6 +26,11 @@ button {
   font-size: inherit;
 }
 
+button {
+  background: none;
+  cursor: pointer;
+}
+
 input:focus,
 button:focus {
   outline: none;
