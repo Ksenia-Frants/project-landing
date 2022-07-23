@@ -1,0 +1,20 @@
+.image-card {
+  margin-left: 32px;
+  width: 385px;
+  height: 550px;
+  position: relative;
+}
+
+.image-card__image {
+  border-radius: 20px 20px 0 20px;
+
+  &_rounded {
+    border-radius: 20px;
+  }
+}
+
+.image-card__info {
+  position: absolute;
+  right: -46px;
+  bottom: 87px;
+}

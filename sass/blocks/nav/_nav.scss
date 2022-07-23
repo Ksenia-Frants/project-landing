@@ -2,3 +2,32 @@
   padding-top: 35px;
   padding-bottom: 33px;
 }
+
+.nav__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__navigation-item {
+  margin-right: 42px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.nav__navigation-link {
+  &:hover {
+    color: $accent-color;
+  }
+
+  &_active {
+    color: $accent-color;
+    font-weight: 700;
+  }
+}
+
+.nav__navigation-list {
+  display: flex;
+}
