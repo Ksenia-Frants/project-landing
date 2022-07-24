@@ -71,6 +71,29 @@ body {
   .button:hover {
     background-color: #ff6a00; }
 
+.button__white {
+  background-color: #fff;
+  color: #323232;
+  transition: background-color 0.2s ease-in, color 0.2s ease-in; }
+  .button__white:hover {
+    color: #fff;
+    background-color: #323232; }
+
+.button__play {
+  padding-left: 49px;
+  position: relative; }
+  .button__play::before {
+    content: '';
+    display: block;
+    width: 12px;
+    height: 12px;
+    background-image: url("../img/icons/play.svg");
+    background-size: initial;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 24px;
+    left: 30px; }
+
 .card-info {
   display: flex;
   align-items: center;
@@ -243,5 +266,45 @@ body {
   font-size: 42px;
   line-height: 62px;
   letter-spacing: 0.8px; }
+
+.cta {
+  padding-top: 74px;
+  padding-bottom: 72px; }
+
+.cta__block {
+  background-color: #58bebf;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  color: #ffffff; }
+
+.cta__image-container {
+  margin-top: 59px;
+  padding-top: 25px;
+  padding-right: 24px;
+  background-color: #ffffff;
+  border-radius: 0 21.6px 0 0; }
+
+.cta__text {
+  max-width: 555px;
+  box-sizing: border-box;
+  padding-left: 96px;
+  padding-right: 95px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: url("../img/cta/oval-bottom.svg") bottom left -186px no-repeat, url("../img/cta/oval-top-right.svg") top right no-repeat; }
+
+.cta__title {
+  margin-bottom: 15px; }
+
+.cta__subtitle {
+  letter-spacing: 1.15px; }
+
+.cta__buttons-row {
+  margin-top: 30px;
+  display: flex;
+  column-gap: 20px; }
 
 /*# sourceMappingURL=main.css.map */

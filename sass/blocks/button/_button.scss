@@ -13,3 +13,32 @@
     background-color: $accent-color-hover;
   }
 }
+
+.button__white {
+  background-color: #fff;
+  color: $dark-color;
+  transition: background-color 0.2s ease-in, color 0.2s ease-in;
+
+  &:hover {
+    color: #fff;
+    background-color: $dark-color;
+  }
+}
+
+.button__play {
+  padding-left: 49px;
+  position: relative;
+
+  &::before {
+    content: '';
+    display: block;
+    width: 12px;
+    height: 12px;
+    background-image: url('../img/icons/play.svg');
+    background-size: initial;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 24px;
+    left: 30px;
+  }
+}
