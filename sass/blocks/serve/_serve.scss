@@ -1,6 +1,6 @@
 .serve {
-  padding-top: 0px;
-  padding-bottom: 120px;
+  padding-top: 72px;
+  padding-bottom: 113px;
   position: relative;
 
   &::before {
@@ -10,7 +10,7 @@
     height: 100%;
     background-color: #f5f6fa;
     position: absolute;
-    top: -50%;
+    top: -45%;
     bottom: 50%;
     left: 0;
     z-index: -1;

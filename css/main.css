@@ -311,8 +311,8 @@ body {
   column-gap: 20px; }
 
 .serve {
-  padding-top: 0px;
-  padding-bottom: 120px;
+  padding-top: 72px;
+  padding-bottom: 113px;
   position: relative; }
   .serve::before {
     content: '';
@@ -321,7 +321,7 @@ body {
     height: 100%;
     background-color: #f5f6fa;
     position: absolute;
-    top: -50%;
+    top: -45%;
     bottom: 50%;
     left: 0;
     z-index: -1; }
@@ -370,5 +370,43 @@ body {
   fill: #f78434;
   transition: fill 0.2s ease-in;
   margin-bottom: 15px; }
+
+.benefits {
+  padding-bottom: 111px; }
+
+.benefits__heading {
+  padding-bottom: 58px;
+  text-align: center; }
+
+.benefits__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 35px; }
+
+.benefits__item {
+  text-align: center; }
+  .benefits__item:hover circle {
+    fill: #f78434; }
+  .benefits__item:hover path,
+  .benefits__item:hover ellipse {
+    fill: #ffffff; }
+
+.benefits__icon {
+  margin-bottom: 15px;
+  display: inline-block; }
+  .benefits__icon circle {
+    fill: rgba(88, 190, 191, 0.2);
+    transition: fill 0.2s ease-in; }
+  .benefits__icon path,
+  .benefits__icon ellipse {
+    fill: #58bebf;
+    transition: fill 0.2s ease-in; }
+
+.benefits__name {
+  margin-bottom: 2px;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 42px; }
 
 /*# sourceMappingURL=main.css.map */
