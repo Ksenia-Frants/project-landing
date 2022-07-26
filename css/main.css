@@ -442,7 +442,8 @@ body {
   display: inline-block;
   border-radius: 5px 5px 0px 0px;
   max-width: 350px;
-  transition: box-shadow 0.2s ease-in; }
+  transition: box-shadow 0.2s ease-in;
+  cursor: pointer; }
   .card-testimonial:hover {
     box-shadow: 0px 10px 52px rgba(0, 0, 0, 0.08); }
     .card-testimonial:hover .card-testimonial__city {
@@ -529,5 +530,53 @@ body {
 .contacts__text {
   margin-bottom: 30px;
   max-width: 327px; }
+
+.footer {
+  padding-top: 86px;
+  padding-bottom: 82px; }
+
+.footer__row {
+  display: flex;
+  justify-content: space-between; }
+
+.footer__info {
+  max-width: 300px; }
+
+.footer__logo {
+  margin-bottom: 15px; }
+
+.footer__info-text {
+  margin-bottom: 40px; }
+
+.footer__socials {
+  display: flex;
+  column-gap: 30px;
+  align-items: center; }
+
+.footer__icon-image {
+  transition: opacity 0.2s ease-in; }
+  .footer__icon-image:hover {
+    opacity: 0.6; }
+
+.footer__nav {
+  display: flex;
+  column-gap: 85px; }
+
+.footer__nav-block-title {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 32px;
+  margin-bottom: 18px; }
+
+.footer__nav-block-item {
+  margin-bottom: 13px;
+  font-size: 14px; }
+  .footer__nav-block-item:last-of-type {
+    margin-bottom: 0; }
+
+.footer__nav-blovk-link {
+  transition: color 0.2s ease-in; }
+  .footer__nav-blovk-link:hover {
+    color: #ff6a00; }
 
 /*# sourceMappingURL=main.css.map */

@@ -3,6 +3,7 @@
   border-radius: 5px 5px 0px 0px;
   max-width: 350px;
   transition: box-shadow 0.2s ease-in;
+  cursor: pointer;
 
   &:hover {
     box-shadow: 0px 10px 52px rgba(0, 0, 0, 0.08);
