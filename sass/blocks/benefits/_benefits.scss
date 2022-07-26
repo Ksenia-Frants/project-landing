@@ -19,12 +19,12 @@
 
   &:hover {
     circle {
-      fill: #f78434;
+      fill: $accent-color;
     }
 
     path,
     ellipse {
-      fill: #ffffff;
+      fill: $white-color;
     }
   }
 }
@@ -40,7 +40,7 @@
 
   path,
   ellipse {
-    fill: #58bebf;
+    fill: $light-blue-color;
     transition: fill 0.2s ease-in;
   }
 }

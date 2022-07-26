@@ -8,7 +8,7 @@
     box-shadow: 0px 10px 52px rgba(0, 0, 0, 0.08);
 
     .card-testimonial__city {
-      color: #f78434;
+      color: $accent-color;
     }
 
     .card-testimonial__btn-play {
@@ -33,7 +33,7 @@
 
 .card-testimonial__btn-play-img {
   circle {
-    fill: #ffffff;
+    fill: $white-color;
     transition: fill 0.2s ease-in;
   }
 
@@ -48,7 +48,7 @@
     }
 
     path {
-      fill: #ffffff;
+      fill: $white-color;
     }
   }
 }
@@ -70,6 +70,6 @@
 }
 
 .card-testimonial__city {
-  color: #58bebf;
+  color: $light-blue-color;
   transition: color 0.2s ease-in;
 }

@@ -6,7 +6,7 @@
   background-color: $accent-color;
   line-height: 58px;
   font-weight: 700;
-  color: #ffffff;
+  color: $white-color;
   border-radius: 29px;
   transition: background-color 0.2s ease-in;
   &:hover {
@@ -15,12 +15,12 @@
 }
 
 .button__white {
-  background-color: #fff;
+  background-color: $white-color;
   color: $dark-color;
   transition: background-color 0.2s ease-in, color 0.2s ease-in;
 
   &:hover {
-    color: #fff;
+    color: $white-color;
     background-color: $dark-color;
   }
 }

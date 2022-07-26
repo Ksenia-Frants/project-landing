@@ -4,19 +4,19 @@
 }
 
 .cta__block {
-  background-color: #58bebf;
+  background-color: $light-blue-color;
   border-radius: 20px;
   display: flex;
   justify-content: space-between;
   align-items: stretch;
-  color: #ffffff;
+  color: $white-color;
 }
 
 .cta__image-container {
   margin-top: 59px;
   padding-top: 25px;
   padding-right: 24px;
-  background-color: #ffffff;
+  background-color: $white-color;
   border-radius: 0 21.6px 0 0;
 }
 

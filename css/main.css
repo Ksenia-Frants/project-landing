@@ -72,11 +72,11 @@ body {
     background-color: #ff6a00; }
 
 .button__white {
-  background-color: #fff;
+  background-color: #ffffff;
   color: #323232;
   transition: background-color 0.2s ease-in, color 0.2s ease-in; }
   .button__white:hover {
-    color: #fff;
+    color: #ffffff;
     background-color: #323232; }
 
 .button__play {
