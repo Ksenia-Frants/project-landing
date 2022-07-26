@@ -253,6 +253,8 @@ body {
   width: 385px;
   height: 550px;
   position: relative; }
+  .image-card:nth-of-type(2):hover .image-card__info {
+    opacity: 1; }
 
 .image-card__image {
   border-radius: 20px 20px 0 20px; }
@@ -262,7 +264,9 @@ body {
 .image-card__info {
   position: absolute;
   right: -46px;
-  bottom: 87px; }
+  bottom: 87px;
+  opacity: 0;
+  transition: opacity 0.2s ease-in; }
 
 .title {
   font-weight: 700;
